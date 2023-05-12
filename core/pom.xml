@@ -72,7 +72,12 @@
         </plugins>
     </build>
 
-    <dependencies>
+    <dependencies> <!-- TODO meter solo el API ??-->
+        <dependency>
+            <groupId>tech.units</groupId>
+            <artifactId>indriya</artifactId>
+            <version>2.1.3</version>
+        </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
